@@ -8,7 +8,7 @@
 class MrCoxallStack {
   private readonly stack: string[] = []
 
-  public push (item: number): void {
+  public push (item: string): void {
     this.stack.push(item)
   }
 

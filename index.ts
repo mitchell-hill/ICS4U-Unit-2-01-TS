@@ -7,7 +7,6 @@
  */
 import { MrCoxallStack } from './mrCoxallStack'
 
-function main (): void {
   // Push items to fruit stack
   const fruitStack = new MrCoxallStack()
   fruitStack.push('apple')
@@ -32,6 +31,3 @@ function main (): void {
   console.log(`Dog items: ${dogStack.showStack()}`)
 
   console.log('\nDone.')
-}
-
-main()
